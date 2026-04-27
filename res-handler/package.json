@@ -1,0 +1,43 @@
+{
+  "name": "res-wrap",
+  "version": "1.0.2",
+  "description": "Unified API response handler for Express, NestJS and Fastify. One consistent format across your entire app.",
+  "main": "src/index.js",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.js",
+    "./express": "./src/adapters/express.js",
+    "./nest": "./src/adapters/nest.js",
+    "./fastify": "./src/adapters/fastify.js"
+  },
+  "scripts": {
+    "demo": "node src/demo.js",
+    "test": "node tests/run.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "express",
+    "nestjs",
+    "fastify",
+    "api-response",
+    "response-handler",
+    "api-format",
+    "response-wrapper",
+    "rest-api",
+    "http-response",
+    "success-response",
+    "error-response",
+    "pagination",
+    "res-wrap"
+  ],
+  "author": "Adarsh",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {}
+}
